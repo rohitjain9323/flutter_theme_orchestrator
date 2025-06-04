@@ -21,6 +21,15 @@ homepage: https://github.com/rohitjain9323/flutter_theme_orchestrator
 repository: https://github.com/rohitjain9323/flutter_theme_orchestrator
 issue_tracker: https://github.com/rohitjain9323/flutter_theme_orchestrator/issues
 
+authors:
+  - Rohit Jain <rohitjain9323@gmail.com>
+
+maintainers:
+  - Rohit Jain (@rohitjain9323)
+
+funding:
+  - https://github.com/sponsors/rohitjain9323
+
 environment:
   sdk: '>=3.0.0 <4.0.0'
   flutter: ">=3.10.0"
