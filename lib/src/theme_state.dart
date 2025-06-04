@@ -39,6 +39,7 @@ class ThemeState {
     return const ThemeState(
       themeMode: ThemeMode.light,
       useMaterial3: true,
+      primaryColor: Colors.blue,
     );
   }
 
@@ -46,6 +47,7 @@ class ThemeState {
     return const ThemeState(
       themeMode: ThemeMode.dark,
       useMaterial3: true,
+      primaryColor: Colors.blue,
     );
   }
 
