@@ -36,6 +36,7 @@ class StepIndicator extends StatelessWidget {
                   isCompleted: stepIndex < currentStep,
                   primaryColor: primaryColor,
                   size: indicatorSize,
+                  steps: steps,
                 ),
               );
             } else {
@@ -97,6 +98,7 @@ class _StepDot extends StatelessWidget {
   final bool isCompleted;
   final Color primaryColor;
   final double size;
+  final List<FormStep> steps;
 
   const _StepDot({
     required this.step,
@@ -104,6 +106,7 @@ class _StepDot extends StatelessWidget {
     required this.isCompleted,
     required this.primaryColor,
     required this.size,
+    required this.steps,
   });
 
   @override

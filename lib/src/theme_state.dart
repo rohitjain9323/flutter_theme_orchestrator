@@ -35,17 +35,19 @@ class ThemeState {
     this.customProperties,
   });
 
-  factory ThemeState.defaultLight() => ThemeState(
-    themeMode: ThemeMode.light,
-    primaryColor: Colors.blue,
-    useMaterial3: true,
-  );
+  static ThemeState defaultLight() {
+    return const ThemeState(
+      themeMode: ThemeMode.light,
+      useMaterial3: true,
+    );
+  }
 
-  factory ThemeState.defaultDark() => ThemeState(
-    themeMode: ThemeMode.dark,
-    primaryColor: Colors.blue,
-    useMaterial3: true,
-  );
+  static ThemeState defaultDark() {
+    return const ThemeState(
+      themeMode: ThemeMode.dark,
+      useMaterial3: true,
+    );
+  }
 
   ThemeState copyWith({
     ThemeMode? themeMode,
