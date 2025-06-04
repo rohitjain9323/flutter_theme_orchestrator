@@ -72,7 +72,7 @@ ThemeOrchestrator.of(context).setDynamicColorsEnabled(true);
 
 Check out the [example](example) folder for a complete demo app showcasing all features.
 
-For detailed documentation, visit our [Wiki](https://github.com/yourusername/flutter_theme_orchestrator/wiki).
+For detailed documentation, visit our [Wiki](https://github.com/rohitjain9323/flutter_theme_orchestrator/wiki).
 
 ## Contributing
 
