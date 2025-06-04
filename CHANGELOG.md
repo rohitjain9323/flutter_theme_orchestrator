@@ -1,5 +1,11 @@
 # Changelog
 
+## 0.1.1 - Metadata Update
+
+* Updated package metadata with proper maintainer information
+* Fixed documentation links
+* Improved package description
+
 ## 0.1.0 - Initial Release
 
 * Initial release of flutter_theme_orchestrator
